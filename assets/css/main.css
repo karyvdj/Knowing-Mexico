@@ -1,5 +1,5 @@
 .fondoYLetraNav{
-  background: #7212cf;
+  background: #000;
   height: 100px;
   color: white;
 
@@ -9,12 +9,13 @@ a{
   text-decoration: none;
   color: white;
 }
+
 a:hover{
-  /*background:#0f80ca;*/
-  background:#ff711d;
-  color:#000;
+  background: #01DFD7;
+  color: #000;
   font-weight: bold;
 }
+
 .tamano{
   width: 100%;
 }
@@ -46,4 +47,30 @@ div.col-8{
   position: relative;
   left: 10%;
   top: 30%;
+}
+=======
+
+body {
+  font-family: 'Combo', cursive;
+  font-family: 'Metal', cursive;
+  font-family: 'Princess Sofia', cursive;
+}
+
+nav h1{
+  margin-top: 1%;
+  font-size: 34px;
+  color: #01DFD7;
+}
+
+nav a {
+  font-family: 'Combo', cursive;
+  font-size: 26px;
+  margin-top: 2%;
+  color: #01DFD7;
+}
+
+nav img {
+  width: 10%;
+  float: left;
+  height: 100px;;
 }
