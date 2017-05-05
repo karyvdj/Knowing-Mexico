@@ -1,7 +1,8 @@
 .fondoYLetraNav{
   background: #7212cf;
   height: 100px;
-  color: white
+  color: white;
+
 }
 
 a{
@@ -13,4 +14,36 @@ a:hover{
   background:#ff711d;
   color:#000;
   font-weight: bold;
+}
+.tamano{
+  width: 100%;
+}
+
+div.col-8{
+  height: 580px;
+}
+.imgDF{
+  width: 15%;
+  visibility: hidden;
+}
+.imgDFVisible{
+  width: 15%;
+  visibility: visible;
+}
+.posicionAbsoluta{
+  position: absolute;
+}
+.posicionRelative{
+
+  position: relative;
+}
+.posicionRelativaImgDF{
+  position: relative;
+  left: 69px;
+  top: 314px;
+}
+.posicionRelativaImgLetra{
+  position: relative;
+  left: 10%;
+  top: 30%;
 }

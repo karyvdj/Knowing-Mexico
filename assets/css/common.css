@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+.textCenter{
+  text-align: center;
+}
 .container{
   width: 100%;
   /*max-width: 1200px;*/
@@ -42,7 +45,8 @@
   width: 58.333%;
 }
 .col-8{
-  width: 66.667%;
+  /*width: 66.667%;*/
+  width: 700px;
 }
 .col-9{
   width: 75%;
