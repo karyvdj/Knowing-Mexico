@@ -27,8 +27,9 @@ a:hover{
   background-position:center;
   background-repeat: no-repeat;
   background-size:contain;
-  height: 550px;
+  height: 650px;
   width: 100%;
+  padding-top: 100px;
   /*height: 100%;*/
 }
 .fila1alto{
@@ -38,7 +39,7 @@ a:hover{
   height:360px;
 }
 .fila1alto2{
-  height: 58px;
+  height: 15px;
 }
 .imgDF{
   visibility: hidden;
@@ -170,7 +171,7 @@ nav img {
 }
 
 #mole:hover{
-	background-image:url(../../img-altar/mole_back.png); 
+	background-image:url(../../img-altar/mole_back.png);
 }
 
 .limpiar{
