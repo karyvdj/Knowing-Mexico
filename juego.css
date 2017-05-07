@@ -1,31 +1,31 @@
 .contenedor {
-  background-image: url(img-memorama/fondo.jpg);
-  opacity: .8;
+  background-color: rgb(55, 251, 246);
 }
-
 #tablero {
     text-align: center;
-    width: 98%;
-    background-color: #5f2369;
-    margin: 1%;
+    width: 75%;
+    background-image: url("img-memorama/imagen9.jpg");
+    background-position: center;
+    background-size: cover;
+    margin:2% 12.5%;
 }
 
 #tablero>div {
   width: calc((100%) / 5);
-  height: 150px;
+  height: 180px;
   display: inline-block;
-  background:  #FFEB3B;
+  background-color: rgba(255, 255, 255, 0);
   margin: 2%;
   cursor: pointer;
   transition: transform ease .3s;
+  border-radius: 14%;
 }
 #tablero>div:hover {
   transform: scale(1.2);
 }
-img{
+.tarjeta{
   display: none;
   width: 100%;
-  height: 200px;
 }
 
 .abrir img {
@@ -34,13 +34,15 @@ display: inline-block;
 
 .tarjetas {
   width: 100%;
+border: 8px solid;
+border-color: #dd0b6c;
 }
 
 h1, p, ul {
   text-align: center;
   font-size: 2rem;
   color: #d3126a;
-  background-color: rgba(234, 237, 228, 0.8);
+
 }
 
 .titulo {

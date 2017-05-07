@@ -97,10 +97,10 @@ nav img {
 	height:230px;
 	margin:0 auto;
 	background-color:#0F9;
-	background-image:url(../../img-altar/ofrenda.png);	
+	background-image:url(../../img-altar/ofrenda.png);
 }
 
-#pan{	
+#pan{
 	background-image:url(../../img-altar/pan_de_muerto.png);
 }
 
@@ -169,7 +169,58 @@ nav img {
 .limpiar{
 	clear:both;
 }
-	
-	
-	
-	
+
+.contenedor {
+  background-color: rgb(55, 251, 246);
+}
+#tablero {
+    text-align: center;
+    width: 75%;
+    background-image: url("../../img-memorama/imagen9.jpg");
+    background-position: center;
+    background-size: cover;
+    margin:2% 12.5%;
+}
+
+#tablero>div {
+  width: calc((100%) / 5);
+  height: 180px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0);
+  margin: 2%;
+  cursor: pointer;
+  transition: transform ease .3s;
+  border-radius: 14%;
+}
+#tablero>div:hover {
+  transform: scale(1.2);
+}
+.tarjeta{
+  display: none;
+  width: 100%;
+}
+
+.abrir img {
+display: inline-block;
+}
+
+.tarjetas {
+  width: 100%;
+border: 8px solid;
+border-color: #dd0b6c;
+}
+
+h1, p, ul {
+  text-align: center;
+  font-size: 2rem;
+  color: #d3126a;
+
+}
+
+.titulo {
+  font-size: 3rem;
+}
+nav{
+  z-index: 5;
+  position: fixed;
+}
