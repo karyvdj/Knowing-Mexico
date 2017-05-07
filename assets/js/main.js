@@ -9,11 +9,11 @@ divMapaDF.addEventListener("mouseover",function(){abrir(imgMapaDF)});
 divMapaDF.addEventListener("mouseout",function(){cerrar(imgMapaDF)});
 
 function abrir(elemento){
-  console.log(elemento);
+  // console.log(elemento);
   elemento.className = "tamano imgDFVisible";
 }
 
 function cerrar(elemento){
-  console.log(elemento);
+  // console.log(elemento);
   elemento.className = "tamano imgDF";
 }
