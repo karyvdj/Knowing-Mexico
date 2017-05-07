@@ -232,3 +232,54 @@ header{
   z-index: 5;
   position: fixed;
 }
+
+.seccion_footer{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+
+  background-color: #3E393C;
+}
+
+
+.nombre>li{
+  display: inline-block;
+  list-style: none;
+  width: 10%;
+  height: 10%;
+
+}
+.calaveras{
+  width: 10%;
+  padding-top: 5%;
+  margin: auto;
+}
+
+.seccion_footer>div{
+  margin: 1%;
+  margin-left: 16%;
+}
+
+.footer{
+  font-family: 'Ravi Prakash', cursive;
+  color: #fff;
+  list-style: none;
+}
+
+.footer>li{
+  font-size: 150%;
+  display: inline-block;
+  padding-bottom: 3%;
+  padding-left: 4%;
+}
+
+.footer>li>a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer>li>a:hover{
+  color: #FF00BF;
+  text-decoration: none;
+
+}
