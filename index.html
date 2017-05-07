@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
   <title>Presentando Mexico</title>
@@ -11,8 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=Combo|Metal|Princess+Sofia" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Combo" rel="stylesheet">
 </head>
-
-<body>
+  <body>
   <header class="container fondoYLetraNav">
     <nav class="row">
       <img src="assets/img/catrina.gif">
@@ -24,27 +22,36 @@
       </div>
     </nav>
   </header>
-  <section id="mapa" class="container">
-    <div class="row">
-      <div class="col-2">
 
-      </div>
-      <div class="col-8 textCenter">
-        <div class="posicionAbsoluta">
-          <img class="tamano posicionRelative" src="assets/img/mapa.jpg" alt="">
-        </div>
-        <div class="posicionRelativaImgDF">
-          <img src="assets/img/df.png" class="imgDF" id="" alt="">
-        </div>
-        <div class="posicionRelativaImgLetra">
-          <!-- <img src="assets/img/globo.png" alt=""> -->
+    <section id="mapa" class="container ">
+      <div class="row ">
+        <div class="col-2 fila1alto"></div>
+        <div class="col-2 fila1alto"></div>
+        <div class="col-5 fila1alto">
+          <img src="assets/img/globo.png" id="globoBienvenida" class="tamano imgDF" alt="">
         </div>
       </div>
-      <div class="col-2">
+      <div class="row ">
+        <div class="col-2 fila2alto"></div>
+        <div class="col-3 catrina fila2alto">
+          <img src="assets/img/catrinaBienvenida.png" id="catrina" class="tamano pointer" alt="">
+        </div>
+        <div class="col-1-1">
 
+        </div>
+        <div class="col-2">
+          <div class="row fila1alto2">
+
+          </div>
+          <div class="row pointer"  id="divMapaDF" >
+            <img src="assets/img/df.png" id="imgMapaDF" class="tamano imgDF" alt="">
+          </div>
+
+        </div>
       </div>
 
-    </div>
+
+
   </section>
   <section id="altar">
 
@@ -76,6 +83,5 @@
   <footer>
   </footer>
   <script src="juego.js"></script>
-</body>
-
+  </body>
 </html>
