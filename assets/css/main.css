@@ -1,16 +1,178 @@
 .fondoYLetraNav{
-  background: #7212cf;
+  background: #000;
   height: 100px;
-  color: white
+  color: white;
 }
 
 a{
   text-decoration: none;
   color: white;
 }
+
 a:hover{
-  /*background:#0f80ca;*/
-  background:#ff711d;
-  color:#000;
+  background: #01DFD7;
+  color: #000;
   font-weight: bold;
+}
+
+.tamano{
+  width: 80%;
+  height: 97%;
+}
+
+/*section del mapa*/
+#mapa{
+  background-color: #42aeb1;
+  background-image: url(../img/mapa.png);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:contain;
+  height: 550px;
+  width: 100%;
+  /*height: 100%;*/
+}
+.fila1alto{
+  height: 200px;
+}
+.fila2alto{
+  height:360px;
+}
+.fila1alto2{
+  height: 58px;
+}
+.imgDF{
+  visibility: hidden;
+  transition: ease 1.5s ;
+  transform: scale(.01);
+}
+.imgDFVisible{
+  visibility: visible;
+  transition: ease 1.5s ;
+  transform: scale(1);
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+
+body {
+  font-family: 'Combo', cursive;
+  font-family: 'Metal', cursive;
+  font-family: 'Princess Sofia', cursive;
+}
+
+nav h1{
+  margin-top: 1%;
+  font-size: 34px;
+  color: #01DFD7;
+}
+
+nav a {
+  font-family: 'Combo', cursive;
+  font-size: 26px;
+  margin-top: 2%;
+  color: #01DFD7;
+}
+
+nav img {
+  width: 10%;
+  float: left;
+  height: 100px;;
+}
+
+/*seccion altar*/
+.bloque_ofrenda{
+	width:250px;
+	height:250px;
+	display:inline-block;
+	transition:ease 1s;
+	margin-right:20px;
+	cursor:pointer;
+	margin-top:20px;
+}
+
+
+#altar{
+	width:830px;
+	height:auto;
+	margin:0 auto;
+	background-color:#0F9;
+}
+#banner{
+	width:830px;
+	height:230px;
+	margin:0 auto;
+	background-color:#0F9;
+	background-image:url(../../img-altar/ofrenda.png);
+}
+
+#pan{
+	background-image:url(../../img-altar/pan_de_muerto.png);
+}
+
+#pan:hover{
+
+	background-image:url(../../img-altar/pan_back.png);
+}
+
+#calavera{
+	background-image:url(../../img-altar/calaverita_azucar.png);
+}
+
+#calavera:hover{
+	background-image:url(../../img-altar/pan_back.png);
+}
+#cruz{
+	background-image:url(../../img-altar/cruz.png);
+}
+
+#cruz:hover{
+	background-image:url(../../img-altar/cruz_back.png);
+}
+#flor{
+	background-image:url(../../img-altar/flor.png);
+}
+
+#flor:hover{
+	background-image:url(../../img-altar/flor_back.png);
+}
+#papel{
+	background-image:url(../../img-altar/papel_picado1.png);
+}
+
+#papel:hover{
+	background-image:url(../../img-altar/papel_back.png);
+}
+#retrato{
+	background-image:url(../../img-altar/retrato.png);
+}
+
+#retrato:hover{
+	background-image:url(../../img-altar/retrato_back.png);
+}
+#tequila{
+	background-image:url(../../img-altar/tequila.png);
+}
+
+#tequila:hover{
+	background-image:url(../../img-altar/tequila_back.png);
+}
+#velas{
+	background-image:url(../../img-altar/velas.png);
+}
+
+#velas:hover{
+	background-image:url(../../img-altar/velas_back.png);
+}
+#mole{
+	background-image:url(../../img-altar/mole.png);
+}
+
+#mole:hover{
+	background-image:url(../../img-altar/mole_back.png);
+}
+
+.limpiar{
+	clear:both;
 }
