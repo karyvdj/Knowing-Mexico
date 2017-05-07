@@ -16,8 +16,7 @@ a:hover{
 }
 
 .tamano{
-  width: 80%;
-  height: 97%;
+  width: 90%;
 }
 
 /*section del mapa*/
@@ -27,20 +26,9 @@ a:hover{
   background-position:center;
   background-repeat: no-repeat;
   background-size:contain;
-  height: 650px;
-  width: 100%;
-  padding-top: 100px;
-  /*height: 100%;*/
 }
-.fila1alto{
-  height: 200px;
-}
-.fila2alto{
-  height:360px;
-}
-.fila1alto2{
-  height: 15px;
-}
+
+
 .imgDF{
   visibility: hidden;
   transition: ease 1.5s ;
@@ -63,6 +51,10 @@ body {
   font-family: 'Princess Sofia', cursive;
 }
 
+nav {
+  background-color: #000;
+  position: fixed;
+}
 nav h1{
   margin-top: 1%;
   font-size: 34px;
@@ -88,7 +80,7 @@ nav img {
 	height:250px;
 	display:inline-block;
 	transition:ease 1s;
-	margin-right:20px;
+	margin-left:2%;
 	cursor:pointer;
 	margin-top:20px;
 }
@@ -174,9 +166,9 @@ nav img {
 	background-image:url(../../img-altar/mole_back.png);
 }
 
-.limpiar{
+/*.limpiar{
 	clear:both;
-}
+}*/
 
 .contenedor {
   background-color: rgb(55, 251, 246);
@@ -228,7 +220,7 @@ h1, p, ul {
 .titulo {
   font-size: 3rem;
 }
+
 header{
-  z-index: 5;
-  position: fixed;
+  padding-bottom: 5%;
 }

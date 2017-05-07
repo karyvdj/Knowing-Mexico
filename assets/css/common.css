@@ -8,7 +8,6 @@
 }
 .container{
   width: 100%;
-  /*max-width: 1200px;*/
   margin: 0 auto;
 }
 .row:before, .row:after{
@@ -20,7 +19,6 @@
 }
 [class*="col-"]{
   min-height: 7px;
-  /*padding: 12px;*/
   float: left;
 }
 .col-1-1{
