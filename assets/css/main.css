@@ -87,10 +87,10 @@ nav img {
 
 
 #altar{
-	width:830px;
-	height:auto;
 	margin:0 auto;
 	background-color:#0F9;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 #banner{
 	width:830px;
@@ -163,7 +163,7 @@ nav img {
 }
 
 #mole:hover{
-	background-image:url(../../img-altar/mole_back.png);
+	background-image:url(../../img-altar/mole_back.png); 
 }
 
 .limpiar{
@@ -220,7 +220,7 @@ h1, p, ul {
 .titulo {
   font-size: 3rem;
 }
-nav{
+header{
   z-index: 5;
   position: fixed;
 }
