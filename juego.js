@@ -1,66 +1,52 @@
 var tablero = document.getElementById('tablero');
-var cartas = [1, 2, 3, 4, 5, 6, 7, 8]
-var parejas = cartas.length
+var cartas = [1, 2, 3, 4, 5, 6, 7, 8];
+var parejas = cartas.length;
+var primerCarta = 0;
+var segundaCarta = 0;
+//creas las cartas de forma aleatoria y se generan los pares
 
 cartas = cartas.concat(cartas);
 cartas = cartas.sort(function() {
   return Math.random() - 0.5
-})
-
-var primerCarta = 0
-var segundaCarta = 0
+});
 
 cartas.forEach(function(val) {
-  var element = document.createElement('div');
+  var div = document.createElement('div');
   var imagen = document.createElement('img');
   imagen.src = "img-memorama/" + ("imagen" + (val)) + ".png";
-  element.id = val;
+  imagen.className = "tarjeta";
+  div.id = val;
+  div.className = "tarjetas"
   console.log(val);
-  element.appendChild(imagen);
-  tablero.appendChild(element);
-  element.addEventListener('click', function(event) {
-
-    var DOMElement = event.target;
-
-
+  div.appendChild(imagen);
+  tablero.appendChild(div);
+  div.addEventListener('click', function(event) {
+    var tarjetatocada = event.target;
     if (primerCarta !== 0 && segundaCarta !== 0) {
-      console.log('Tercer turno')
-
-      // limpiar banderas
+    // limpiar banderas
       if (primerCarta.id !== segundaCarta.id) {
         primerCarta.classList.remove('abrir');
         segundaCarta.classList.remove('abrir');
-
-      }
-
-      primerCarta = 0
-      segundaCarta = 0
-    }
-
-    DOMElement.classList.add('abrir')
-
+      };
+      primerCarta = 0;
+      segundaCarta = 0;
+    };
+    tarjetatocada.classList.add('abrir');
     if (primerCarta === 0) {
-      primerCarta = DOMElement
-      console.log('Primer turno')
+      primerCarta = tarjetatocada;
     } else {
-      segundaCarta = DOMElement
-      console.log('Segundo turno')
-
-      if (primerCarta.innerText === segundaCarta.innerText) {
-        parejas = parejas - 1
+      segundaCarta = tarjetatocada;
+      if (primerCarta.id === segundaCarta.id) {
+        parejas = parejas - 1;
+        console.log(parejas);
       }
-
       if (parejas === 0) {
-        console.log('Ganaste', parejas)
-        // alert('Felicidades Ganaste! Eres muy Inteligente.')
-        location.reload()
+        console.log('Ganaste', parejas);
+       alert('Felicidades Ganaste! Eres muy Inteligente.')
+        location.reload();
       }
     }
-
-
-    if (primerCarta === segundaCarta) {
-
-    }
+        if (primerCarta === segundaCarta){
+    };
   }, true)
-
 });
