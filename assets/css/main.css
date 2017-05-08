@@ -20,9 +20,7 @@ a:hover{
   width: 90%;
 }
 
-header{
-  padding-bottom: 5%;
-}
+
 
 nav {
   background-color: #000;
@@ -38,7 +36,7 @@ nav h1{
 nav a {
   font-family: 'Combo', cursive;
   font-size: 26px;
-  margin-top: 2%;
+  margin: 2%;
   color: #01DFD7;
 }
 
@@ -100,11 +98,14 @@ body {
     padding-bottom: 5%;
 }
 #banner{
-	width:830px;
-	height:230px;
-	margin:0 auto;
+	/*width:830px;
+	height:230px;*/
 	background-color:#0F9;
-	background-image:url(../../img-altar/ofrenda.png);
+	/*background-image:url(../../img-altar/ofrenda.png);*/
+}
+
+#banner img {
+  margin-left: 30%;
 }
 
 #pan{
