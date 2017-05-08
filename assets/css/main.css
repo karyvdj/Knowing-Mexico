@@ -79,6 +79,58 @@ body {
   font-family: 'Princess Sofia', cursive;
 }
 
+/*seccion about*/
+#about .container {
+  margin-top: 0;
+  background-color: black;
+  height: auto;
+  background-image: url(../img/papelPicado.png);
+}
+
+.title-about {
+  font-family: 'Combo';
+  color: #fff;
+  font-size: 300%;
+  padding-top: 2%;
+  padding-bottom: 2%
+}
+
+.box-text1 {
+  height: auto;
+  margin: 2%;
+  background-color: #901FDA;
+  font-family: 'Combo';
+  font-size: 150%;
+}
+
+.box-text2 {
+  height: auto;
+  background-color: #01DFD7;
+  font-family: 'Combo';
+  font-size: 115%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+}
+
+.box-text3 {
+  height: auto;
+  background-color: #FF8F00;
+  font-family: 'Combo';
+  font-size: 120%;
+  margin-bottom: 3%;
+}
+
+.p-box {
+  color: #fff;
+  font-size: 120%;
+  padding: 2%;
+}
+
+.unesco-logo {
+  margin-right: 2%;
+}
+
+
 
 /*seccion altar*/
 .bloque_ofrenda{
@@ -275,56 +327,5 @@ h1, p, ul {
 .footer>li>a:hover{
   color: #FF00BF;
   text-decoration: none;
-}
-
-/*seccion about*/
-#about .container {
-  margin-top: 0;
-  background-color: black;
-  height: auto;
-  background-image: url(../img/papelPicado.png);
-}
-
-.title-about {
-  font-family: 'Combo';
-  color: #fff;
-  font-size: 300%;
-  padding-top: 2%;
-  padding-bottom: 2%
-}
-
-.box-text1 {
-  height: auto;
-  margin: 2%;
-  background-color: #901FDA;
-  font-family: 'Combo';
-  font-size: 150%;
-}
-
-.box-text2 {
-  height: auto;
-  background-color: #01DFD7;
-  font-family: 'Combo';
-  font-size: 115%;
-  margin-bottom: 2%;
-  margin-left: 2%;
-}
-
-.box-text3 {
-  height: auto;
-  background-color: #FF8F00;
-  font-family: 'Combo';
-  font-size: 120%;
-  margin-bottom: 3%;
-}
-
-.p-box {
-  color: #fff;
-  font-size: 120%;
-  padding: 2%;
-}
-
-.unesco-logo {
-  margin-right: 2%;
 }
 
