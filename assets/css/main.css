@@ -173,18 +173,22 @@ nav img {
 .contenedor {
   background-color: rgb(55, 251, 246);
 }
+
+#juego {
+  padding-bottom: 5%;
+}
 #tablero {
     text-align: center;
     width: 75%;
     background-image: url("../../img-memorama/imagen9.jpg");
     background-position: center;
     background-size: cover;
-    margin:2% 12.5%;
+    margin:.01% 12.5%;
 }
 
 #tablero>div {
   width: calc((100%) / 5);
-  height: 180px;
+  height: 145px;
   display: inline-block;
   background-color: rgba(255, 255, 255, 0);
   margin: 2%;
@@ -225,11 +229,8 @@ header{
   padding-bottom: 5%;
 }
 
+/* Sección footer */
 .seccion_footer{
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-
   background-color: #3E393C;
 }
 
@@ -248,14 +249,18 @@ header{
 }
 
 .seccion_footer>div{
+<<<<<<< HEAD
   margin: 0;
+=======
+>>>>>>> upstream/master
   margin-left: 16%;
 }
 
 .footer{
-  font-family: 'Ravi Prakash', cursive;
+  /*font-family: 'Ravi Prakash', cursive;*/
   color: #fff;
   list-style: none;
+  padding-bottom: 2%;
 }
 
 .footer>li{
