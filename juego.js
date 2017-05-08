@@ -16,8 +16,7 @@ cartas.forEach(function(val) {
   imagen.src = "img-memorama/" + ("imagen" + (val)) + ".png";
   imagen.className = "tarjeta";
   div.id = val;
-  div.className = "tarjetas"
-  console.log(val);
+  div.className = "tarjetas";
   div.appendChild(imagen);
   tablero.appendChild(div);
   div.addEventListener('click', function(event) {
