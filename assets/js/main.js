@@ -35,9 +35,12 @@ document.addEventListener("scroll", function() {
 console.log(scrollY);
 function cambiarColorBotonCeroNav() {
 	barraNav[0].style.background = "#01DFD7";
+    barraNav[0].style.borderRadius = "30%";
+    barraNav[0].style.border = "1px solid #01DFD7";
     barraNav[0].style.color = "#000";
     barraNav[1].style.background = "#000";
     barraNav[1].style.color = "#01DFD7";
+    barraNav[1].style.border = "1px solid #000";
     barraNav[2].style.background = "#000";
     barraNav[2].style.color = "01DFD7";
 }
@@ -46,16 +49,23 @@ function cambiarColorBotonCeroNav() {
 function cambiarColorBotonUnoNav () {
     barraNav[1].style.background = "#01DFD7";
     barraNav[1].style.color = "#000";
+    barraNav[1].style.borderRadius = "30%";
+    barraNav[1].style.border = "1px solid #01DFD7";
+    barraNav[0].style.border = "1px solid #000";
     barraNav[0].style.color = "#01DFD7";
     barraNav[0].style.background = "#000";
     barraNav[2].style.background = "#000";
     barraNav[2].style.color = "#01DFD7";
+    barraNav[2].style.border = "1px solid #000";
 }
 
 
 function cambiarCOlorBotonDosNav () {
     barraNav[2].style.background = "#01DFD7";
     barraNav[2].style.color = "#000";
+    barraNav[2].style.borderRadius = "30%";
+    barraNav[2].style.border = "1px solid #01DFD7";
+    barraNav[1].style.border = "1px solid #000";
     barraNav[1].style.background = "#000";
     barraNav[1].style.color = "#01DFD7";
 }
@@ -63,6 +73,7 @@ function cambiarCOlorBotonDosNav () {
 function devolverBotonesAEstiloOriginal() {
     barraNav[0].style.background = "#000";
     barraNav[0].style.color = "#01DFD7";
+    barraNav[0].style.border = "1px solid #000";
     barraNav[1].style.background = "#000";
     barraNav[1].style.color = "#01DFD7";
     barraNav[2].style.background = "#000";
