@@ -1,3 +1,4 @@
+/*Sección Barra-Nav*/
 .fondoYLetraNav{
   background: #000;
   height: 100px;
@@ -17,6 +18,34 @@ a:hover{
 
 .tamano{
   width: 90%;
+}
+
+header{
+  padding-bottom: 5%;
+}
+
+nav {
+  background-color: #000;
+  position: fixed;
+  z-index: 5;
+}
+nav h1{
+  margin-top: 1%;
+  font-size: 34px;
+  color: #01DFD7;
+}
+
+nav a {
+  font-family: 'Combo', cursive;
+  font-size: 26px;
+  margin-top: 2%;
+  color: #01DFD7;
+}
+
+nav img {
+  width: 10%;
+  float: left;
+  height: 100px;;
 }
 
 /*section del mapa*/
@@ -51,28 +80,6 @@ body {
   font-family: 'Princess Sofia', cursive;
 }
 
-nav {
-  background-color: #000;
-  position: fixed;
-}
-nav h1{
-  margin-top: 1%;
-  font-size: 34px;
-  color: #01DFD7;
-}
-
-nav a {
-  font-family: 'Combo', cursive;
-  font-size: 26px;
-  margin-top: 2%;
-  color: #01DFD7;
-}
-
-nav img {
-  width: 10%;
-  float: left;
-  height: 100px;;
-}
 
 /*seccion altar*/
 .bloque_ofrenda{
@@ -166,9 +173,6 @@ nav img {
 	background-image:url(../../img-altar/mole_back.png);
 }
 
-/*.limpiar{
-	clear:both;
-}*/
 
 .contenedor {
   background-color: rgb(55, 251, 246);
@@ -225,9 +229,6 @@ h1, p, ul {
   font-size: 3rem;
 }
 
-header{
-  padding-bottom: 5%;
-}
 
 /* Sección footer */
 .seccion_footer{
@@ -249,10 +250,6 @@ header{
 }
 
 .seccion_footer>div{
-<<<<<<< HEAD
-  margin: 0;
-=======
->>>>>>> upstream/master
   margin-left: 16%;
 }
 
