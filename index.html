@@ -29,25 +29,25 @@
     <section id="mapa" class="container ">
       <div class="row ">
         <div class="col-2"></div>
-        <div class="col-2"></div>
-        <div class="col-5">
-          <img src="assets/img/globo.png" id="globoBienvenida" class="tamano imgDF" alt="">
+        <div class="col-2 fila1alto"></div>
+        <div class="col-5 ">
+          <img src="assets/img/globo.png" id="globoBienvenida" class="tamano imgDF" alt="globo Bienvenida">
         </div>
       </div>
       <div class="row ">
-        <div class="col-2"></div>
-        <div class="col-3 catrina">
-          <img src="assets/img/catrinaBienvenida.png" id="catrina" class="tamano pointer" alt="">
+        <div class="col-2 "></div>
+        <div class="col-3 fila2alto catrina">
+          <img src="assets/img/catrinaBienvenida.png" id="catrina" class="tamano pointer" alt="Catrina">
         </div>
         <div class="col-1-1">
 
         </div>
         <div class="col-2">
-          <div class="row">
+          <div class="row ">
 
           </div>
           <div class="row pointer"  id="divMapaDF" >
-            <img src="assets/img/df.png" id="imgMapaDF" class="tamano imgDF" alt="">
+            <img src="assets/img/df.png" id="imgMapaDF" class="tamano imgDF" alt="Mapa CDMX">
           </div>
 
         </div>
@@ -69,7 +69,7 @@
               <img class="col-12" src="assets/img/calaverita-about.png">
             </div>
           </div>
-          <div class="row">  
+          <div class="row">
             <div class="col-2"></div>
             <div class="box-text2 col-3">
               <p class="p-box col-12">Celebrating The Day of the Dead has a long history since prehispanic times in mexican tradition.</p>
@@ -89,7 +89,7 @@
     <section class="row">
       <div class="col-2"></div>
       <div id="banner col-">
-        <img src="img-altar/ofrenda.png"> 
+        <img src="img-altar/ofrenda.png">
       </div>
       <div class="col-2"></div>
       </section>
@@ -126,7 +126,34 @@
     <div id="tablero">
     </div>
   </section>
-  
+  <section id="video" class="container">
+      <div class="row">
+        <p>Videos</p>
+      </div>
+      <div class="row">
+        <select id="escogerVideo" class="selector" >
+          <option value="0">Select a Song</option>
+          <option value="1">Tumbas por aqui, Tumbas por allá</option>
+          <option value="2">Chumba la Cachumba. Video musical. Minilibros Clave de Sol</option>
+          <!-- <option value="3">Dia de los Muertos | Film School Shorts</option>
+          <option value="4">Dia De Los Muertos (Day Of The Dead) – A Brief Explainer</option> -->
+          <!-- <option value="5">La muerte - Huapango</option> -->
+        </select>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <p id="tituloCancion">Hello, you can play in this video<br> or select a song to know more<br> of the day of the dead</p>
+          <label id="letraCancion"></label>
+        </div>
+        <div class="col-1">
+          <!--  solo de relleno-->
+        </div>
+        <div class="col-6">
+          <iframe id="videosPresentacion" class="video" src="https://www.youtube.com/embed/-v4-1wFEzM0?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
   <footer class="container seccion_footer">
     <div>
       <img class="calaveras" src="assets/img/Lucero.png">
