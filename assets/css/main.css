@@ -233,14 +233,15 @@ body {
 }
 
 #juego {
-  padding-bottom: 5%;
+  display: flex;
+  align-items: center;;
+  padding: 2.5%;
 }
 #tablero {
     text-align: center;
-    width: 75%;
+    width: 80%;
     background-image: url("../../img-memorama/imagen9.jpg");
     background-position: center;
-    background-size: cover;
     margin:.01% 12.5%;
 }
 

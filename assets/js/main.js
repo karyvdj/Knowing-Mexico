@@ -20,15 +20,16 @@ function cerrar(elemento){
 
 /*Scroll barra-nav*/
 var barraNav = document.getElementsByClassName("btn-nav");
+var header = document.getElementsByClassName("fondoYLetraNav")[0];
 
 document.addEventListener("scroll", function() {
-  if(window.scrollY >= 3500) {
+  if(window.scrollY >= 3495) {
     cambiarColorBotonTresNav();
-  } else if(window.scrollY >= 2480) {
+  } else if(window.scrollY >= 2481 && window.scrollY <= 3500) {
       cambiarColorBotonDosNav();
-  } else if (window.scrollY >= 1240 & window.scrollY < 2480) {
+  } else if (window.scrollY >= 1241 && window.scrollY <= 2480) {
     cambiarColorBotonUnoNav();
-  } else if (window.scrollY >= 640 & window.scrollY < 1240) {
+  } else if (window.scrollY >= 640 && window.scrollY <= 1240) {
     cambiarColorBotonCeroNav();
   } else {
     devolverBotonesAEstiloOriginal();
@@ -36,6 +37,7 @@ document.addEventListener("scroll", function() {
 });
 console.log(scrollY);
 function cambiarColorBotonCeroNav() {
+    header.style.display = "block";
 	  barraNav[0].style.background = "#01DFD7";
     barraNav[0].style.borderRadius = "30%";
     barraNav[0].style.border = "1px solid #01DFD7";
@@ -49,6 +51,7 @@ function cambiarColorBotonCeroNav() {
 
 
 function cambiarColorBotonUnoNav () {
+    header.style.display = "block";
     barraNav[1].style.background = "#01DFD7";
     barraNav[1].style.color = "#000";
     barraNav[1].style.borderRadius = "30%";
@@ -66,6 +69,7 @@ function cambiarColorBotonUnoNav () {
 
 
 function cambiarColorBotonDosNav () {
+    header.style.display = "none";
     barraNav[2].style.background = "#01DFD7";
     barraNav[2].style.color = "#000";
     barraNav[2].style.borderRadius = "30%";
@@ -80,6 +84,7 @@ function cambiarColorBotonDosNav () {
 }
 
 function cambiarColorBotonTresNav() {
+  header.style.display = "block";
   barraNav[3].style.background = "#01DFD7";
   barraNav[3].style.color = "#000";
   barraNav[3].style.borderRadius = "30%";
