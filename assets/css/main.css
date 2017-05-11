@@ -282,6 +282,7 @@ h1, p, ul {
 .titulo {
   font-size: 3rem;
 }
+
 /*seccion Videos*/
 #video {
   background-color: black;
@@ -294,7 +295,7 @@ h1, p, ul {
   color: #01DFD7;
   font-size: 26px;
   font-family: "combo", cursive;
-  width: 100%;
+  width: 83%;
 }
 .video{
   width: 100%;
