@@ -22,8 +22,10 @@ function cerrar(elemento){
 var barraNav = document.getElementsByClassName("btn-nav");
 
 document.addEventListener("scroll", function() {
-  if(window.scrollY >= 2480) {
-      cambiarCOlorBotonDosNav ()
+  if(window.scrollY >= 3500) {
+    cambiarColorBotonTresNav();
+  } else if(window.scrollY >= 2480) {
+      cambiarColorBotonDosNav();
   } else if (window.scrollY >= 1240 & window.scrollY < 2480) {
     cambiarColorBotonUnoNav();
   } else if (window.scrollY >= 640 & window.scrollY < 1240) {
@@ -34,7 +36,7 @@ document.addEventListener("scroll", function() {
 });
 console.log(scrollY);
 function cambiarColorBotonCeroNav() {
-	barraNav[0].style.background = "#01DFD7";
+	  barraNav[0].style.background = "#01DFD7";
     barraNav[0].style.borderRadius = "30%";
     barraNav[0].style.border = "1px solid #01DFD7";
     barraNav[0].style.color = "#000";
@@ -57,10 +59,13 @@ function cambiarColorBotonUnoNav () {
     barraNav[2].style.background = "#000";
     barraNav[2].style.color = "#01DFD7";
     barraNav[2].style.border = "1px solid #000";
+    barraNav[3].style.border = "1px solid #000";
+    barraNav[3].style.background = "#000";
+    barraNav[3].style.color = "#01DFD7";
 }
 
 
-function cambiarCOlorBotonDosNav () {
+function cambiarColorBotonDosNav () {
     barraNav[2].style.background = "#01DFD7";
     barraNav[2].style.color = "#000";
     barraNav[2].style.borderRadius = "30%";
@@ -68,6 +73,20 @@ function cambiarCOlorBotonDosNav () {
     barraNav[1].style.border = "1px solid #000";
     barraNav[1].style.background = "#000";
     barraNav[1].style.color = "#01DFD7";
+    barraNav[3].style.border = "1px solid #000";
+    barraNav[3].style.background = "#000";
+    barraNav[3].style.color = "#01DFD7";
+
+}
+
+function cambiarColorBotonTresNav() {
+  barraNav[3].style.background = "#01DFD7";
+  barraNav[3].style.color = "#000";
+  barraNav[3].style.borderRadius = "30%";
+  barraNav[3].style.border = "1px solid #01DFD7";
+  barraNav[2].style.background = "#000";
+  barraNav[2].style.color = "#01DFD7";
+  barraNav[2].style.border = "1px solid #000";
 }
 
 function devolverBotonesAEstiloOriginal() {
@@ -78,6 +97,8 @@ function devolverBotonesAEstiloOriginal() {
     barraNav[1].style.color = "#01DFD7";
     barraNav[2].style.background = "#000";
     barraNav[2].style.color = "#01DFD7";
+    barraNav[3].style.background = "#000";
+    barraNav[3].style.color = "#01DFD7";
 }
 
 // seccion del videos
