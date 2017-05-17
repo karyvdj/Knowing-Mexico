@@ -1,0 +1,352 @@
+/*Sección Barra-Nav*/
+.fondoYLetraNav{
+  background: #000;
+  height: 100px;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  background: #01DFD7;
+  color: #000;
+  font-weight: bold;
+}
+
+.tamano{
+  width: 90%;
+}
+
+
+
+nav {
+  background-color: #000;
+  position: fixed;
+  z-index: 5;
+}
+
+nav h1{
+  margin-top: 1%;
+  font-size: 34px;
+  color: #01DFD7;
+}
+
+nav a {
+  font-family: 'Combo', cursive;
+  font-size: 26px;
+  margin: 1%;
+  color: #01DFD7;
+}
+
+nav img {
+  width: 10%;
+  float: left;
+  height: 100px;;
+}
+
+/*section del mapa*/
+#mapa{
+  background-color: #01DFD7;
+  background-image: url(../img/mapa.png);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+
+.imgDF{
+  visibility: hidden;
+  transition: ease 1.5s ;
+  transform: scale(.01);
+}
+.imgDFVisible{
+  visibility: visible;
+  transition: ease 1.5s ;
+  transform: scale(1);
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+
+body {
+  font-family: 'Combo', cursive;
+  font-family: 'Metal', cursive;
+  font-family: 'Princess Sofia', cursive;
+}
+
+/*seccion about*/
+#about .container {
+  margin-top: 0;
+  background-color: black;
+  height: auto;
+  background-image: url(../img/papelPicado.png);
+}
+
+.title-about {
+  font-family: 'Combo';
+  color: #fff;
+  padding-top: 2%;
+  padding-bottom: 2%
+}
+
+.box-text1 {
+  height: auto;
+  margin: 2%;
+  background-color: #901FDA;
+  font-family: 'Combo';
+  font-size: 150%;
+}
+
+.box-text2 {
+  height: auto;
+  background-color: #01DFD7;
+  font-family: 'Combo';
+  font-size: 115%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+}
+
+.box-text3 {
+  height: auto;
+  background-color: #FF8F00;
+  font-family: 'Combo';
+  font-size: 120%;
+  margin-bottom: 3%;
+}
+
+.p-box {
+  color: #fff;
+  font-size: 120%;
+  padding: 2%;
+}
+
+.unesco-logo {
+  margin-right: 2%;
+}
+.limbo{
+  text-decoration: underline;
+  color: purple;
+}
+
+
+
+/*seccion altar*/
+.bloque_ofrenda{
+	width:250px;
+	height:250px;
+	display:inline-block;
+	transition:ease 1s;
+	margin-left:2%;
+	cursor:pointer;
+	margin-top:20px;
+}
+
+
+#altar{
+	margin:0 auto;
+	background-color:#C30C97;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#banner{
+	/*width:830px;
+	height:230px;*/
+	background-color:#0F9;
+	/*background-image:url(../../img-altar/ofrenda.png);*/
+}
+
+#banner img {
+  margin-left: 30%;
+}
+
+#pan{
+	background-image:url(../../img-altar/pan_de_muerto.png);
+}
+
+#pan:hover{
+
+	background-image:url(../../img-altar/pan_back.png);
+}
+
+#calavera{
+	background-image:url(../../img-altar/calaverita_azucar.png);
+}
+
+#calavera:hover{
+	background-image:url(../../img-altar/calaverita_azucar_back.png);
+}
+#cruz{
+	background-image:url(../../img-altar/cruz.png);
+}
+
+#cruz:hover{
+	background-image:url(../../img-altar/cruz_back.png);
+}
+#flor{
+	background-image:url(../../img-altar/flor.png);
+}
+
+#flor:hover{
+	background-image:url(../../img-altar/flor_back.png);
+}
+#papel{
+	background-image:url(../../img-altar/papel_picado1.png);
+}
+
+#papel:hover{
+	background-image:url(../../img-altar/papel_back.png);
+}
+#retrato{
+	background-image:url(../../img-altar/retrato.png);
+}
+
+#retrato:hover{
+	background-image:url(../../img-altar/retrato_back.png);
+}
+#tequila{
+	background-image:url(../../img-altar/tequila.png);
+}
+
+#tequila:hover{
+	background-image:url(../../img-altar/tequila_back.png);
+}
+#velas{
+	background-image:url(../../img-altar/velas.png);
+}
+
+#velas:hover{
+	background-image:url(../../img-altar/velas_back.png);
+}
+#mole{
+	background-image:url(../../img-altar/mole.png);
+}
+
+#mole:hover{
+	background-image:url(../../img-altar/mole_back.png);
+}
+
+
+.contenedor {
+  background-color: #A8E912;
+}
+
+#juego {
+  display: flex;
+  align-items: center;;
+  padding: 2.5%;
+}
+#tablero {
+    text-align: center;
+    width: 80%;
+    background-image: url("../../img-memorama/imagen9.jpg");
+    background-position: center;
+    margin:.01% 12.5%;
+}
+
+#tablero>div {
+  width: calc((100%) / 5);
+  height: 145px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0);
+  margin: 2%;
+  cursor: pointer;
+  transition: transform ease .3s;
+  border-radius: 14%;
+}
+#tablero>div:hover {
+  transform: scale(1.2);
+}
+.tarjeta{
+  display: none;
+  width: 100%;
+}
+
+.abrir img {
+display: inline-block;
+}
+
+.tarjetas {
+  width: 100%;
+border: 8px solid;
+border-color: #dd0b6c;
+}
+
+h1, p, ul {
+  text-align: center;
+  font-size: 2rem;
+  color: #d3126a;
+
+}
+
+.titulo {
+  font-size: 3rem;
+}
+
+/*seccion Videos*/
+#video {
+  background-color: black;
+  color:white;
+  font-family: "Combo", cursive;
+  text-align: center;
+}
+.selector{
+  background-color: black;
+  color: #01DFD7;
+  font-size: 26px;
+  font-family: "combo", cursive;
+  width: 83%;
+}
+.video{
+  width: 100%;
+  height: 450px;
+  padding: 15px;
+}
+
+
+/* Sección footer */
+.seccion_footer{
+  background-color: #FFA70C;
+}
+
+
+.nombre>li{
+  display: inline-block;
+  list-style: none;
+  width: 10%;
+  height: 10%;
+
+}
+.calaveras{
+  width: 10%;
+  margin: auto;
+}
+
+.seccion_footer>div{
+  margin-left: 16%;
+}
+
+.footer{
+  /*font-family: 'Ravi Prakash', cursive;*/
+  color: #fff;
+  list-style: none;
+  padding-bottom: 1%;
+}
+
+.footer>li{
+  font-size: 100%;
+  display: inline-block;
+}
+
+.footer>li>a{
+  text-decoration: none;
+  color: #fff;
+}
+.footer>li>a:hover{
+  color: #FF00BF;
+  text-decoration: none;
+}
