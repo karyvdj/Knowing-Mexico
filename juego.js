@@ -41,7 +41,7 @@ cartas.forEach(function(val) {
       }
       if (parejas === 0) {
         console.log('Ganaste', parejas);
-       alert('Felicidades Ganaste! Eres muy Inteligente.')
+       alert('Congratulations, you win! You are very smart.')
         location.reload();
       }
     }

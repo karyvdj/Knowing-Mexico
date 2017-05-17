@@ -1,5 +1,5 @@
 .contenedor {
-  background-color: rgb(55, 251, 246);
+  background-color:#0CC3BB;
 }
 #tablero {
     text-align: center;
@@ -14,7 +14,7 @@
   width: calc((100%) / 5);
   height: 180px;
   display: inline-block;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #0CC3BB;
   margin: 2%;
   cursor: pointer;
   transition: transform ease .3s;
